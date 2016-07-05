@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+	 width="300" height="270"  xml:space="preserve">
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+              .qbrid {
+                stroke: rgb(14,172,178);
+                stroke-width: 12;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                fill: rgb(122, 229, 232)
+              }
+            ]]>
+        </style>
+    </defs>
+
+    <!-- Q - cube -->
+        <polyline class="qbrid " points="10 190 10 70 110 10 210 70 210 190 110 250 10 190"/>
+        <polyline class="qbrid" points="110 160 110 127 130 115"/>
+
+    <!-- Q -tail -->
+        <line class="qbrid" x1="90" y1="115" x2="250" y2="215"/>
+</svg>

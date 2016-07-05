@@ -1,0 +1,98 @@
+@font-face {
+    /** Credit to Andreas Dymke, http://www.1001fonts.com/dangerfont-font.html **/
+    font-family: Venus Rising;
+    src: url(../fonts/Venus-Rising/venus_rising_rg.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Venus Rising, sans-serif;
+    background-color: #183a42;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #0eacb2;
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(109, 205, 208);
+}
+
+.main {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 90px;
+    margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    width: 49%;
+    min-height: 80px;
+    display: inline-block;
+}
+
+.logo--q {
+    z-index: 2;
+    left: 5%;
+}
+
+.logo--brid {
+    left: -5%;
+    z-index: 1;
+}
+
+.teaser {
+    text-align: center;
+}
+
+.dots {
+    margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 479px) {
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .wrapper {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 664px) {
+    .logo--brid {
+        left: -100%;
+        opacity: 0;
+    }
+}
+
+@media only screen and (min-width: 890px) {
+    .wrapper {
+        width: 50%;
+    }
+
+    .logo {
+        max-width: 270px;
+    }
+}
